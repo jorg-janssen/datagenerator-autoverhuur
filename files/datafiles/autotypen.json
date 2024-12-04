@@ -1,0 +1,442 @@
+[
+    {
+        "typecode": "FAM4",
+        "omschrijving": "Kleine gezinsauto",
+        "aantal_personen": 4,
+        "prijs_per_dag": 23.50,
+        "url_image": "FAM4.jpg",
+        "kans": 10
+    },
+    {
+        "typecode": "FAM5",
+        "omschrijving": "Gezinsauto",
+        "aantal_personen": 5,
+        "prijs_per_dag": 25.00,
+        "url_image": "FAM5.jpg",
+        "kans": 10
+    },
+    {
+        "typecode": "MINI",
+        "omschrijving": "Kleine auto",
+        "aantal_personen": 2,
+        "prijs_per_dag": 20.00,
+        "url_image": "MINICAR.jpg",
+        "kans": 10
+    },
+    {
+        "typecode": "SUV5",
+        "omschrijving": "Kleine SUV",
+        "aantal_personen": 5,
+        "prijs_per_dag": 25.50,
+        "url_image": "SUV5.jpg",
+        "kans": 10
+    },
+    {
+        "typecode": "SUV7",
+        "omschrijving": "Grote SUV",
+        "aantal_personen": 7,
+        "prijs_per_dag": 37.00,
+        "url_image": "SUV7.jpg",
+        "kans": 10
+    },
+    {
+        "typecode": "SED4",
+        "omschrijving": "Middelgrote sedan",
+        "aantal_personen": 4,
+        "prijs_per_dag": 27.00,
+        "url_image": "SED4.jpg",
+        "kans": 9
+    },
+    {
+        "typecode": "SED5",
+        "omschrijving": "Ruime sedan",
+        "aantal_personen": 5,
+        "prijs_per_dag": 30.00,
+        "url_image": "SED5.jpg",
+        "kans": 9
+    },
+    {
+        "typecode": "CAB2",
+        "omschrijving": "Cabrio",
+        "aantal_personen": 2,
+        "prijs_per_dag": 40.00,
+        "url_image": "CAB2.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "CAB4",
+        "omschrijving": "Grote cabrio",
+        "aantal_personen": 4,
+        "prijs_per_dag": 45.00,
+        "url_image": "CAB4.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "LUX5",
+        "omschrijving": "Luxe auto",
+        "aantal_personen": 5,
+        "prijs_per_dag": 60.00,
+        "url_image": "LUX5.jpg",
+        "kans": 5
+    },
+    {
+        "typecode": "LUX4",
+        "omschrijving": "Kleine luxe auto",
+        "aantal_personen": 4,
+        "prijs_per_dag": 55.00,
+        "url_image": "LUX4.jpg",
+        "kans": 7
+    },
+    {
+        "typecode": "COUP2",
+        "omschrijving": "Coupé",
+        "aantal_personen": 2,
+        "prijs_per_dag": 35.00,
+        "url_image": "COUP2.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "ECO4",
+        "omschrijving": "Compacte eco-auto",
+        "aantal_personen": 4,
+        "prijs_per_dag": 18.00,
+        "url_image": "ECO4.jpg",
+        "kans": 10
+    },
+    {
+        "typecode": "ECO2",
+        "omschrijving": "Kleine eco-auto",
+        "aantal_personen": 2,
+        "prijs_per_dag": 15.00,
+        "url_image": "ECO2.jpg",
+        "kans": 10
+    },
+    {
+        "typecode": "VAN9",
+        "omschrijving": "Minibus",
+        "aantal_personen": 9,
+        "prijs_per_dag": 50.00,
+        "url_image": "VAN9.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "VAN7",
+        "omschrijving": "Familiebusje",
+        "aantal_personen": 7,
+        "prijs_per_dag": 45.00,
+        "url_image": "VAN7.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "VAN6",
+        "omschrijving": "Compact busje",
+        "aantal_personen": 6,
+        "prijs_per_dag": 40.00,
+        "url_image": "VAN6.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "TRUCK",
+        "omschrijving": "Vrachtwagen",
+        "aantal_personen": 2,
+        "prijs_per_dag": 100.00,
+        "url_image": "TRUCK.jpg",
+        "kans": 1
+    },
+    {
+        "typecode": "SPRT2",
+        "omschrijving": "Sportauto",
+        "aantal_personen": 2,
+        "prijs_per_dag": 70.00,
+        "url_image": "SPRT2.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "SPRT4",
+        "omschrijving": "Sportauto voor gezin",
+        "aantal_personen": 4,
+        "prijs_per_dag": 75.00,
+        "url_image": "SPRT4.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "CAMP4",
+        "omschrijving": "Camper",
+        "aantal_personen": 4,
+        "prijs_per_dag": 90.00,
+        "url_image": "CAMP4.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "CAMP6",
+        "omschrijving": "Grote camper",
+        "aantal_personen": 6,
+        "prijs_per_dag": 120.00,
+        "url_image": "CAMP6.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "HATCH4",
+        "omschrijving": "Hatchback",
+        "aantal_personen": 4,
+        "prijs_per_dag": 22.00,
+        "url_image": "HATCH4.jpg",
+        "kans": 7
+    },
+    {
+        "typecode": "HATCH5",
+        "omschrijving": "Ruime hatchback",
+        "aantal_personen": 5,
+        "prijs_per_dag": 24.00,
+        "url_image": "HATCH5.jpg",
+        "kans": 6
+    },
+    {
+        "typecode": "MICRO",
+        "omschrijving": "Micro-auto",
+        "aantal_personen": 2,
+        "prijs_per_dag": 12.00,
+        "url_image": "MICRO.jpg",
+        "kans": 1
+    },
+    {
+        "typecode": "ROAD2",
+        "omschrijving": "Roadster",
+        "aantal_personen": 2,
+        "prijs_per_dag": 50.00,
+        "url_image": "ROAD2.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "ROAD4",
+        "omschrijving": "Roadster 4 personen",
+        "aantal_personen": 4,
+        "prijs_per_dag": 55.00,
+        "url_image": "ROAD4.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "JEEP",
+        "omschrijving": "Jeep",
+        "aantal_personen": 4,
+        "prijs_per_dag": 35.00,
+        "url_image": "JEEP.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "JEEPXL",
+        "omschrijving": "Grote jeep",
+        "aantal_personen": 5,
+        "prijs_per_dag": 40.00,
+        "url_image": "JEEPXL.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "LIMO",
+        "omschrijving": "Limousine",
+        "aantal_personen": 6,
+        "prijs_per_dag": 100.00,
+        "url_image": "LIMO.jpg",
+        "kans": 1
+    },
+    {
+        "typecode": "PICKUP",
+        "omschrijving": "Pickup truck",
+        "aantal_personen": 2,
+        "prijs_per_dag": 30.00,
+        "url_image": "PICKUP.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "PICKUP4",
+        "omschrijving": "Pickup met dubbele cabine",
+        "aantal_personen": 4,
+        "prijs_per_dag": 35.00,
+        "url_image": "PICKUP4.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "EST4",
+        "omschrijving": "Stationwagen",
+        "aantal_personen": 4,
+        "prijs_per_dag": 28.00,
+        "url_image": "EST4.jpg",
+        "kans": 5
+    },
+    {
+        "typecode": "EST5",
+        "omschrijving": "Ruime stationwagen",
+        "aantal_personen": 5,
+        "prijs_per_dag": 32.00,
+        "url_image": "EST5.jpg",
+        "kans": 6
+    },
+    {
+        "typecode": "MOTOR",
+        "omschrijving": "Motorfiets",
+        "aantal_personen": 2,
+        "prijs_per_dag": 18.00,
+        "url_image": "MOTOR.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "QUAD",
+        "omschrijving": "Quad",
+        "aantal_personen": 2,
+        "prijs_per_dag": 20.00,
+        "url_image": "QUAD.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "SUVXL",
+        "omschrijving": "Extra grote SUV",
+        "aantal_personen": 8,
+        "prijs_per_dag": 45.00,
+        "url_image": "SUVXL.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "ECOFAM",
+        "omschrijving": "Eco gezinsauto",
+        "aantal_personen": 5,
+        "prijs_per_dag": 25.00,
+        "url_image": "ECOFAM.jpg",
+        "kans": 9
+    },
+    {
+        "typecode": "LUX7",
+        "omschrijving": "Luxe SUV",
+        "aantal_personen": 7,
+        "prijs_per_dag": 80.00,
+        "url_image": "LUX7.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "MINIBUS",
+        "omschrijving": "Mini-bus",
+        "aantal_personen": 10,
+        "prijs_per_dag": 60.00,
+        "url_image": "MINIBUS.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "CLASSIC",
+        "omschrijving": "Klassieke auto",
+        "aantal_personen": 4,
+        "prijs_per_dag": 65.00,
+        "url_image": "CLASSIC.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "TAXI",
+        "omschrijving": "Taxivoertuig",
+        "aantal_personen": 4,
+        "prijs_per_dag": 30.00,
+        "url_image": "TAXI.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "SHUTTLE",
+        "omschrijving": "Shuttle bus",
+        "aantal_personen": 15,
+        "prijs_per_dag": 80.00,
+        "url_image": "SHUTTLE.jpg",
+        "kans": 3
+    },
+    {
+        "typecode": "CAMP2",
+        "omschrijving": "Kleine camper",
+        "aantal_personen": 2,
+        "prijs_per_dag": 75.00,
+        "url_image": "CAMP2.jpg",
+        "kans": 4
+    },
+    {
+        "typecode": "LUXECO",
+        "omschrijving": "Luxe eco-auto",
+        "aantal_personen": 5,
+        "prijs_per_dag": 55.00,
+        "url_image": "LUXECO.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "COURIER",
+        "omschrijving": "Koerierbus",
+        "aantal_personen": 3,
+        "prijs_per_dag": 25.00,
+        "url_image": "COURIER.jpg",
+        "kans": 2
+    },
+    {
+        "typecode": "BUDGET",
+        "omschrijving": "Budgetauto",
+        "aantal_personen": 4,
+        "prijs_per_dag": 19.00,
+        "url_image": "BUDGET.jpg",
+        "kans": 7
+    },
+    {
+        "typecode": "EXEC",
+        "omschrijving": "Executive auto",
+        "aantal_personen": 5,
+        "prijs_per_dag": 70.00,
+        "url_image": "EXEC.jpg",
+        "kans": 7
+    },
+    {
+        "typecode": "COM5",
+        "omschrijving": "Compacte gezinsauto",
+        "aantal_personen": 5,
+        "prijs_per_dag": 25.00,
+        "url_image": "COM5.jpg",        
+        "kans": 7
+    },
+    {
+        "typecode": "ELEC2",
+        "omschrijving": "Kleine elektrische auto",
+        "aantal_personen": 2,
+        "prijs_per_dag": 30.00,
+        "url_image": "ELEC2.jpg",        
+        "kans": 6
+    },
+    {
+        "typecode": "ELEC3",
+        "omschrijving": "Middelgrote elektrische auto",
+        "aantal_personen": 3,
+        "prijs_per_dag": 35.00,
+        "url_image": "ELEC3.jpg",        
+        "kans": 5
+    },
+    {
+        "typecode": "ELEC4",
+        "omschrijving": "Grote elektrische auto",
+        "aantal_personen": 4,
+        "prijs_per_dag": 40.00,
+        "url_image": "ELEC4.jpg",        
+        "kans": 4
+    },
+    {
+        "typecode": "ELEC5",
+        "omschrijving": "Elektrische gezinsauto",
+        "aantal_personen": 5,
+        "prijs_per_dag": 45.00,
+        "url_image": "ELEC5.jpg",        
+        "kans": 3
+    },
+    {
+        "typecode": "ELEC7",
+        "omschrijving": "Elektrische SUV",
+        "aantal_personen": 7,
+        "prijs_per_dag": 60.00,
+        "url_image": "ELEC7.jpg",        
+        "kans": 2
+    },
+    {
+        "typecode": "SPORT",
+        "omschrijving": "Sportwagen",
+        "aantal_personen": 2,
+        "prijs_per_dag": 80.00,
+        "url_image": "SPORT.jpg",            
+        "kans": 1
+    }
+]

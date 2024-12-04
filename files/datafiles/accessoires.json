@@ -1,0 +1,373 @@
+[
+    {
+        "accessoirenaam": "BABYSTLGR",
+        "omschrijving": "Babystoel groot",
+        "prijs_per_dag": 5.00,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "BABYSTLKL",
+        "omschrijving": "Babystoel klein",
+        "prijs_per_dag": 4.00,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "HONDNET",
+        "omschrijving": "Hondennet",
+        "prijs_per_dag": 3.50,
+        "max": 1,
+        "kans": 4
+    },
+    {
+        "accessoirenaam": "NAVMINI",
+        "omschrijving": "Navigatie klein",
+        "prijs_per_dag": 3.00,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "NAVXL",
+        "omschrijving": "Navigatie XL",
+        "prijs_per_dag": 4.00,
+        "max": 1,
+        "kans": 4
+    },
+    {
+        "accessoirenaam": "KINDZITJE",
+        "omschrijving": "Kinderzitje",
+        "prijs_per_dag": 4.50,
+        "max": 3,
+        "kans": 6
+    },
+    {
+        "accessoirenaam": "DAKDRAGER",
+        "omschrijving": "Dakdragers",
+        "prijs_per_dag": 6.00,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "FIETSDRGR",
+        "omschrijving": "Fietsendrager",
+        "prijs_per_dag": 7.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "SKIHDRGR",
+        "omschrijving": "Skihouder",
+        "prijs_per_dag": 6.50,
+        "max": 4,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "SNEEKT",
+        "omschrijving": "Sneeuwkettingen",
+        "prijs_per_dag": 4.00,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "DVRKAM",
+        "omschrijving": "Dashcam",
+        "prijs_per_dag": 3.50,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "USBCHARGER",
+        "omschrijving": "USB-oplader",
+        "prijs_per_dag": 1.50,
+        "max": 3,
+        "kans": 3
+    },
+    {
+        "accessoirenaam": "PHNHOLDR",
+        "omschrijving": "Telefoonhouder",
+        "prijs_per_dag": 2.00,
+        "max": 3,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "KOELBOX",
+        "omschrijving": "Koelbox",
+        "prijs_per_dag": 5.00,
+        "max": 3,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "ELECDEKBL",
+        "omschrijving": "Elektrische deken",
+        "prijs_per_dag": 3.00,
+        "max": 4,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "NECKSUPP",
+        "omschrijving": "Neksteun",
+        "prijs_per_dag": 1.00,
+        "max": 6,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "PARAPLUBX",
+        "omschrijving": "Paraplu",
+        "prijs_per_dag": 1.50,
+        "max": 4,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "EHBOKIT",
+        "omschrijving": "EHBO-kit",
+        "prijs_per_dag": 2.50,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "CARALRM",
+        "omschrijving": "Autobewakingssysteem",
+        "prijs_per_dag": 8.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "EXTRASPKR",
+        "omschrijving": "Extra luidspreker",
+        "prijs_per_dag": 3.00,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "CARCOVR",
+        "omschrijving": "Autobeschermhoes",
+        "prijs_per_dag": 4.00,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "WIFI",
+        "omschrijving": "WiFi-hotspot",
+        "prijs_per_dag": 5.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "ROUTEKRT",
+        "omschrijving": "Papieren routekaart",
+        "prijs_per_dag": 1.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "HEATR",
+        "omschrijving": "Draagbare verwarming",
+        "prijs_per_dag": 5.00,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "COOLR",
+        "omschrijving": "Draagbare koeler",
+        "prijs_per_dag": 5.50,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "KIDSBOOKS",
+        "omschrijving": "Kinderboeken",
+        "prijs_per_dag": 2.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "KIDSPLAYR",
+        "omschrijving": "Speelgoedkoffer",
+        "prijs_per_dag": 3.50,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "SNOWMAT",
+        "omschrijving": "Sneeuwmat",
+        "prijs_per_dag": 3.00,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "KIDSIPAD",
+        "omschrijving": "iPad voor kinderen",
+        "prijs_per_dag": 7.00,
+        "max": 4,
+        "kans": 3
+    },
+    {
+        "accessoirenaam": "VIDEQP",
+        "omschrijving": "Videoprojector",
+        "prijs_per_dag": 10.00,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "PETCARR",
+        "omschrijving": "Dierenvervoerder",
+        "prijs_per_dag": 4.50,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "TRNKT",
+        "omschrijving": "Trunk organizer",
+        "prijs_per_dag": 3.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "HANDWARMR",
+        "omschrijving": "Handwarmer",
+        "prijs_per_dag": 2.00,
+        "max": 4,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "MULTICBL",
+        "omschrijving": "Multifunctionele kabel",
+        "prijs_per_dag": 1.50,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "BOOTLINER",
+        "omschrijving": "Kofferbakbeschermer",
+        "prijs_per_dag": 3.50,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "SOLARMAT",
+        "omschrijving": "Zonnepaneel mat",
+        "prijs_per_dag": 8.50,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "TOWCABLE",
+        "omschrijving": "Sleepkabel",
+        "prijs_per_dag": 4.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "VACUUMCLN",
+        "omschrijving": "Draagbare stofzuiger",
+        "prijs_per_dag": 3.50,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "BIKEHELM",
+        "omschrijving": "Fietshelm",
+        "prijs_per_dag": 2.50,
+        "max": 6,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "LUGRACK",
+        "omschrijving": "Bagagerek",
+        "prijs_per_dag": 6.00,
+        "max": 1,
+        "kans": 3
+    },
+    {
+        "accessoirenaam": "CARMAT",
+        "omschrijving": "Automattenset",
+        "prijs_per_dag": 2.50,
+        "max": 1,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "FUELCAN",
+        "omschrijving": "Brandstofkan",
+        "prijs_per_dag": 3.50,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "USBPORT",
+        "omschrijving": "USB-hub",
+        "prijs_per_dag": 1.00,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "ROOFBOX",
+        "omschrijving": "Dakkoffer",
+        "prijs_per_dag": 7.00,
+        "max": 1,
+        "kans": 3
+    },
+    {
+        "accessoirenaam": "PORTABLES",
+        "omschrijving": "Draagbare stoel",
+        "prijs_per_dag": 2.50,
+        "max": 4,
+        "kans": 1
+    },
+    {
+        "accessoirenaam": "KIDSGAME",
+        "omschrijving": "Reisspellen",
+        "prijs_per_dag": 2.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "CARLIGHT",
+        "omschrijving": "Extra verlichting",
+        "prijs_per_dag": 3.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "WASHKIT",
+        "omschrijving": "Autowas kit",
+        "prijs_per_dag": 2.50,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "TRAVELBLK",
+        "omschrijving": "Reisdeken",
+        "prijs_per_dag": 3.00,
+        "max": 3,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "RAINGUARD",
+        "omschrijving": "Regenbescherming",
+        "prijs_per_dag": 2.00,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "BAGCVR",
+        "omschrijving": "Bagagebescherming",
+        "prijs_per_dag": 2.50,
+        "max": 1,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "EXTRABTRY",
+        "omschrijving": "Extra batterij",
+        "prijs_per_dag": 4.00,
+        "max": 2,
+        "kans": 2
+    },
+    {
+        "accessoirenaam": "LANDAIRP",
+        "omschrijving": "Luchtpomp",
+        "prijs_per_dag": 3.00,
+        "max": 1,
+        "kans": 2        
+    }
+]

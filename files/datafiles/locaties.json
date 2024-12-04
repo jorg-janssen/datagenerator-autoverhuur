@@ -1,0 +1,542 @@
+[
+    {
+        "locatiecode": "NIJMHEIJ",
+        "naam": "Nijmegen Heijendaal",
+        "adres": "Professor Molkenboerstaat 3",
+        "postcode": "6524 RN",
+        "plaats": "Nijmegen",
+        "land": "Nederland",
+        "kans": 4
+    },
+    {
+        "locatiecode": "ARNHPRES",
+        "naam": "Arnhem Presikhaaf",
+        "adres": "Ruitenberglaan 26",
+        "postcode": "6826 CC",
+        "plaats": "Arnhem",
+        "land": "Nederland",
+        "kans": 3
+    },    
+    {
+        "locatiecode": "BERLCENTR",
+        "naam": "Berlijn Centrum",
+        "adres": "Hauptstraße 78",
+        "postcode": "10317",
+        "plaats": "Berlijn",
+        "land": "Duitsland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "MAASTAIRPA",
+        "naam": "Maastricht Aken Airport AKEN",
+        "adres": "Flughafenstraße 8a",
+        "postcode": "53801",
+        "plaats": "Aachen",
+        "land": "Duitsland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "MAASTAIRPM",
+        "naam": "Maastricht Aken Airport",
+        "adres": "Tussenweg 8",
+        "postcode": "5556 BP",
+        "plaats": "Maastricht",
+        "land": "Nederland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "ROTTMAAS2",
+        "naam": "Maasvlakte 2",
+        "adres": "Havenweg 128",
+        "postcode": "3356 BP",
+        "plaats": "Rotterdam",
+        "land": "Nederland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "SCHIPHAIRP",
+        "naam": "Schiphol Airport",
+        "adres": "Hoofdweg 27",
+        "postcode": "1276GH",
+        "plaats": "Amsterdam",
+        "land": "Nederland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "AMSTCENTR",
+        "naam": "Amsterdam Centraal Station",
+        "adres": "Stationsplein 15",
+        "postcode": "1012AB",
+        "plaats": "Amsterdam",
+        "land": "Nederland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "UTREINN",
+        "naam": "Utrecht Binnenstad",
+        "adres": "Domplein 21",
+        "postcode": "3512JA",
+        "plaats": "Utrecht",
+        "land": "Nederland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "BRUSCENTR",
+        "naam": "Brussel Centrum",
+        "adres": "Rue de la Loi 12",
+        "postcode": "1000",
+        "plaats": "Brussel",
+        "land": "België",
+        "kans": 10
+    },
+    {
+        "locatiecode": "GHENTSTPT",
+        "naam": "Gent Sint-Pieters",
+        "adres": "Prinses Clementinalaan 2",
+        "postcode": "9000",
+        "plaats": "Gent",
+        "land": "België",
+        "kans": 10
+    },
+    {
+        "locatiecode": "ANTWSTAT",
+        "naam": "Antwerpen Centraal",
+        "adres": "Koningin Astridplein 27",
+        "postcode": "2018",
+        "plaats": "Antwerpen",
+        "land": "België",
+        "kans": 10
+    },
+    {
+        "locatiecode": "LILLEEURO",
+        "naam": "Lille Europe",
+        "adres": "Avenue le Corbusier 1",
+        "postcode": "59777",
+        "plaats": "Lille",
+        "land": "Frankrijk",
+        "kans": 9
+    },
+    {
+        "locatiecode": "LYONPARTD",
+        "naam": "Lyon Part-Dieu",
+        "adres": "Boulevard Vivier-Merle 5",
+        "postcode": "69003",
+        "plaats": "Lyon",
+        "land": "Frankrijk",
+        "kans": 9
+    },
+    {
+        "locatiecode": "STRASGARE",
+        "naam": "Strasbourg Gare",
+        "adres": "Place de la Gare 20",
+        "postcode": "67000",
+        "plaats": "Straatsburg",
+        "land": "Frankrijk",
+        "kans": 9
+    },
+    {
+        "locatiecode": "GENEVAIRP",
+        "naam": "Geneva Airport",
+        "adres": "Route de l'Aéroport 21",
+        "postcode": "1215",
+        "plaats": "Genève",
+        "land": "Zwitserland",
+        "kans": 8
+    },
+    {
+        "locatiecode": "ZURICHBH",
+        "naam": "Zürich Hauptbahnhof",
+        "adres": "Bahnhofplatz 7",
+        "postcode": "8001",
+        "plaats": "Zürich",
+        "land": "Zwitserland",
+        "kans": 8
+    },
+    {
+        "locatiecode": "BASELAIRP",
+        "naam": "Basel Airport",
+        "adres": "EuroAirport Basel-Mulhouse",
+        "postcode": "68300",
+        "plaats": "Saint-Louis",
+        "land": "Frankrijk",
+        "kans": 8
+    },
+    {
+        "locatiecode": "MILANOCEN",
+        "naam": "Milano Centrale",
+        "adres": "Piazza Duca d'Aosta 1",
+        "postcode": "20124",
+        "plaats": "Milaan",
+        "land": "Italië",
+        "kans": 7
+    },
+    {
+        "locatiecode": "TURINPORTA",
+        "naam": "Turijn Porta Nuova",
+        "adres": "Corso Vittorio Emanuele II 58",
+        "postcode": "10121",
+        "plaats": "Turijn",
+        "land": "Italië",
+        "kans": 7
+    },
+    {
+        "locatiecode": "ROMEFLMNC",
+        "naam": "Rome Termini",
+        "adres": "Piazza dei Cinquecento",
+        "postcode": "00185",
+        "plaats": "Rome",
+        "land": "Italië",
+        "kans": 7
+    },
+    {
+        "locatiecode": "BARCELSANT",
+        "naam": "Barcelona Sants",
+        "adres": "Plaça dels Països Catalans",
+        "postcode": "08014",
+        "plaats": "Barcelona",
+        "land": "Spanje",
+        "kans": 7
+    },
+    {
+        "locatiecode": "MADRIDATO",
+        "naam": "Madrid Atocha",
+        "adres": "Plaza Emperador Carlos V",
+        "postcode": "28045",
+        "plaats": "Madrid",
+        "land": "Spanje",
+        "kans": 7
+    },
+    {
+        "locatiecode": "SEVILLESTA",
+        "naam": "Sevilla Santa Justa",
+        "adres": "Avenida Kansas City",
+        "postcode": "41007",
+        "plaats": "Sevilla",
+        "land": "Spanje",
+        "kans": 7
+    },
+    {
+        "locatiecode": "MUNICHBHF",
+        "naam": "München Hauptbahnhof",
+        "adres": "Bayerstraße 10a",
+        "postcode": "80335",
+        "plaats": "München",
+        "land": "Duitsland",
+        "kans": 9
+    },
+    {
+        "locatiecode": "FRANKFHAIR",
+        "naam": "Frankfurt Airport",
+        "adres": "Hugo-Eckener-Ring 1",
+        "postcode": "60549",
+        "plaats": "Frankfurt am Main",
+        "land": "Duitsland",
+        "kans": 9
+    },
+    {
+        "locatiecode": "HAMBHBF",
+        "naam": "Hamburg Hauptbahnhof",
+        "adres": "Hachmannplatz 16",
+        "postcode": "20099",
+        "plaats": "Hamburg",
+        "land": "Duitsland",
+        "kans": 9
+    },
+    {
+        "locatiecode": "STUTTGARH",
+        "naam": "Stuttgart Hauptbahnhof",
+        "adres": "Arnulf-Klett-Platz 2",
+        "postcode": "70173",
+        "plaats": "Stuttgart",
+        "land": "Duitsland",
+        "kans": 10
+    },
+    {
+        "locatiecode": "LONDWATLOO",
+        "naam": "London Waterloo",
+        "adres": "Waterloo Road",
+        "postcode": "SE1 8SW",
+        "plaats": "Londen",
+        "land": "Verenigd Koninkrijk",
+        "kans": 1
+    },
+    {
+        "locatiecode": "EDINWAVSTN",
+        "naam": "Edinburgh Waverley",
+        "adres": "Waverley Bridge",
+        "postcode": "EH1 1BB",
+        "plaats": "Edinburgh",
+        "land": "Verenigd Koninkrijk",
+        "kans": 1
+    },
+    {
+        "locatiecode": "GLASGCENTR",
+        "naam": "Glasgow Centraal",
+        "adres": "Gordon Street",
+        "postcode": "G1 3SL",
+        "plaats": "Glasgow",
+        "land": "Verenigd Koninkrijk",
+        "kans": 1
+    },
+    {
+        "locatiecode": "DUBLAIRP",
+        "naam": "Dublin Airport",
+        "adres": "Old Airport Road",
+        "postcode": "K67",
+        "plaats": "Dublin",
+        "land": "Ierland",
+        "kans": 1
+    },
+    {
+        "locatiecode": "SHANBLYAR",
+        "naam": "Shannon Airport",
+        "adres": "Shannon Free Zone",
+        "postcode": "V14",
+        "plaats": "Shannon",
+        "land": "Ierland",
+        "kans": 1
+    },
+    {
+        "locatiecode": "OSLOLAXTP",
+        "naam": "Oslo Lufthavn",
+        "adres": "Edvard Munchs veg",
+        "postcode": "2060",
+        "plaats": "Oslo",
+        "land": "Noorwegen",
+        "kans": 5
+    },
+    {
+        "locatiecode": "COPENCHNT",
+        "naam": "Kopenhagen Hovedbanegård",
+        "adres": "Bernstorffsgade",
+        "postcode": "1577",
+        "plaats": "Kopenhagen",
+        "land": "Denemarken",
+        "kans": 6
+    },
+    {
+        "locatiecode": "STOCKARNV",
+        "naam": "Stockholm Arlanda",
+        "adres": "Arlanda Flygplats",
+        "postcode": "190 45",
+        "plaats": "Stockholm",
+        "land": "Zweden",
+        "kans": 5
+    },
+    {
+        "locatiecode": "WARSCENTR",
+        "naam": "Warschau Centrum",
+        "adres": "Aleje Jerozolimskie 54",
+        "postcode": "00-024",
+        "plaats": "Warschau",
+        "land": "Polen",
+        "kans": 5
+    },
+    {
+        "locatiecode": "KRAKMAINST",
+        "naam": "Krakau Hoofdstation",
+        "adres": "Pawia 5a",
+        "postcode": "31-154",
+        "plaats": "Krakau",
+        "land": "Polen",
+        "kans": 5
+    },
+    {
+        "locatiecode": "GDYNMAINST",
+        "naam": "Gdynia Hoofdstation",
+        "adres": "Plac Konstytucji 1",
+        "postcode": "81-378",
+        "plaats": "Gdynia",
+        "land": "Polen",
+        "kans": 5
+    },
+    {
+        "locatiecode": "PRAGMAINST",
+        "naam": "Praag Hoofdstation",
+        "adres": "Wilsonova 8",
+        "postcode": "110 00",
+        "plaats": "Praag",
+        "land": "Tsjechië",
+        "kans": 5
+    },
+    {
+        "locatiecode": "BRNOSTATI",
+        "naam": "Brno Station",
+        "adres": "Nádražní 418/1",
+        "postcode": "602 00",
+        "plaats": "Brno",
+        "land": "Tsjechië",
+        "kans": 4
+    },
+    {
+        "locatiecode": "BRATISAVA",
+        "naam": "Bratislava Hoofdstation",
+        "adres": "Námestie Franza Liszta 1",
+        "postcode": "811 04",
+        "plaats": "Bratislava",
+        "land": "Slowakije",
+        "kans": 3
+    },
+    {
+        "locatiecode": "BUDAPNYUG",
+        "naam": "Budapest Nyugati",
+        "adres": "Teréz körút 55",
+        "postcode": "1062",
+        "plaats": "Boedapest",
+        "land": "Hongarije",
+        "kans": 3
+    },
+    {
+        "locatiecode": "BUDAPKELN",
+        "naam": "Budapest Keleti",
+        "adres": "Baross tér 11",
+        "postcode": "1087",
+        "plaats": "Boedapest",
+        "land": "Hongarije",
+        "kans": 2
+    },
+    {
+        "locatiecode": "SOPRMAINST",
+        "naam": "Sopron Station",
+        "adres": "Mátyás Király utca 15",
+        "postcode": "9400",
+        "plaats": "Sopron",
+        "land": "Hongarije",
+        "kans": 1
+    },
+    {
+        "locatiecode": "BUCHARESTN",
+        "naam": "București Nord",
+        "adres": "Calea Griviței 193B",
+        "postcode": "010868",
+        "plaats": "Boekarest",
+        "land": "Roemenië",
+        "kans": 1
+    },
+    {
+        "locatiecode": "CLUJNAPOCA",
+        "naam": "Cluj-Napoca Station",
+        "adres": "Strada Piața Gării",
+        "postcode": "400000",
+        "plaats": "Cluj-Napoca",
+        "land": "Roemenië",
+        "kans": 1
+    },
+    {
+        "locatiecode": "SOFIASTCT",
+        "naam": "Sofia Centraal Station",
+        "adres": "Bulgarian State Railways",
+        "postcode": "1202",
+        "plaats": "Sofia",
+        "land": "Bulgarije",
+        "kans": 1
+    },
+    {
+        "locatiecode": "VARNASTCT",
+        "naam": "Varna Station",
+        "adres": "Bul. Vladislav Varnenchik 1",
+        "postcode": "9000",
+        "plaats": "Varna",
+        "land": "Bulgarije",
+        "kans": 1
+    },
+    {
+        "locatiecode": "BELGRMAIN",
+        "naam": "Belgrado Hoofdstation",
+        "adres": "Savski trg 2",
+        "postcode": "11000",
+        "plaats": "Belgrado",
+        "land": "Servië",
+        "kans": 1
+    },
+    {
+        "locatiecode": "NOVISADSTA",
+        "naam": "Novi Sad Station",
+        "adres": "Bulevar Oslobođenja 1",
+        "postcode": "21000",
+        "plaats": "Novi Sad",
+        "land": "Servië",
+        "kans": 1
+    },
+    {
+        "locatiecode": "SPLITCROAT",
+        "naam": "Split Hoofdstation",
+        "adres": "Obala Kneza Domagoja 12",
+        "postcode": "21000",
+        "plaats": "Split",
+        "land": "Kroatië",
+        "kans": 1
+    },
+    {
+        "locatiecode": "ZAGREBMAIN",
+        "naam": "Zagreb Centraal",
+        "adres": "Trg Kralja Tomislava 12",
+        "postcode": "10000",
+        "plaats": "Zagreb",
+        "land": "Kroatië",
+        "kans": 1
+    },
+    {
+        "locatiecode": "LJUBLMAIN",
+        "naam": "Ljubljana Station",
+        "adres": "Trg Osvobodilne fronte 6",
+        "postcode": "1000",
+        "plaats": "Ljubljana",
+        "land": "Slovenië",
+        "kans": 1
+    },
+    {
+        "locatiecode": "KOSICEST",
+        "naam": "Košice Station",
+        "adres": "Staničné námestie 1",
+        "postcode": "040 01",
+        "plaats": "Košice",
+        "land": "Slowakije",
+        "kans": 1
+    },
+    {
+        "locatiecode": "VILNIUSSTA",
+        "naam": "Vilnius Centraal",
+        "adres": "Geležinkelio g. 16",
+        "postcode": "02100",
+        "plaats": "Vilnius",
+        "land": "Litouwen",
+        "kans": 1
+    },
+    {
+        "locatiecode": "RIGACENTR",
+        "naam": "Riga Centraal",
+        "adres": "Stacijas laukums 1",
+        "postcode": "LV-1050",
+        "plaats": "Riga",
+        "land": "Letland",
+        "kans": 1
+    },
+    {
+        "locatiecode": "TALLINNSTA",
+        "naam": "Tallinn Station",
+        "adres": "Toompuiestee 37",
+        "postcode": "10133",
+        "plaats": "Tallinn",
+        "land": "Estland",
+        "kans": 1
+    },
+    {
+        "locatiecode": "MINSKMAIN",
+        "naam": "Minsk Centraal",
+        "adres": "Privokzal'naja Ploshcha 3",
+        "postcode": "220005",
+        "plaats": "Minsk",
+        "land": "Wit-Rusland",
+        "kans": 1
+    },
+    {
+        "locatiecode": "KIYVMNSTR",
+        "naam": "Kiev Hoofdstation",
+        "adres": "Vokzal'na pl. 1",
+        "postcode": "03049",
+        "plaats": "Kiev",
+        "land": "Oekraïne",
+        "kans": 1
+    }
+]
