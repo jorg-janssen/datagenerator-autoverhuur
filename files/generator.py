@@ -27,7 +27,7 @@ def __main__():
     bron_kentekens = open('datafiles/kentekens.json', 'r', encoding='UTF-8')
     kentekens = json.load(bron_kentekens)        
 
-    # maak gewicht-lijsten voor random.choices
+    # maak gewicht-lijsten voor random.choices en verwijder eventueel de nu overbodig geworden kans-attributen
     autotype_weights = []
     for autotype in autotypen:
         autotype_weights.append(autotype['kans'])
@@ -63,7 +63,6 @@ def __main__():
     klantnr = 200000  
 
     # MAAK AUTO'S 
-
     for kenteken in kentekens:
         autonr = autonr + random.randrange(1,4)
         auto = {}
@@ -83,17 +82,17 @@ def __main__():
         autos.append(auto)
 
         # MAAK HUURCONTRACTEN voor deze auto
-
         # begin ergens in de afgelopen AANTAL_JAREN 
         startdatum = datetime.date.today() - datetime.timedelta(days=random.randrange(100, AANTAL_JAREN*365))
         locatie = random.choices(locaties, weights=locatie_weights, k=1)[0]["locatiecode"]
-        # in 1% van de gevallen stopt deze auto (total loss?) en in 99% komt er een nieuw contract, tot maximaal 50 dagen van nu
+
+        # in 1% van de gevallen stopt verhuur van deze auto (total loss?) en in 99% komt er een nieuw contract, tot maximaal 50 dagen van nu
         while random.randrange(0,99) > 0 and startdatum != None and startdatum < datetime.date.today() + datetime.timedelta(days=50):
             huurcontract = {}
             contractnr = contractnr + random.randrange(1,3)            
             huurcontract["contractnr"] = contractnr
 
-            # als er nog minder dan 100 klanten zijn, daarna in 20% van de gevallen, maak nieuwe klant
+            # als er nog minder dan 100 klanten zijn, daarna in 80% van de gevallen, maak nieuwe klant
             if len(klanten) < 100 or random.randrange(0,5) > 0:           
                 klant = {}
                 klantnr = klantnr + random.randrange(2,5)
@@ -111,7 +110,7 @@ def __main__():
                 klant["emailadres"] = None
                 klanten.append(klant)
             else:
-                # kies ander een willekeurige bestaande klant
+                # kies anders een willekeurige bestaande klant
                 huurcontract["klant"] = random.choice(klanten)["klantnr"]
 
             huurcontract["van_datum"] = startdatum
@@ -119,27 +118,27 @@ def __main__():
             if random.randrange(0,20) == 0 and startdatum > datetime.date.today() - datetime.timedelta(days=50):
                 huurcontract["tot_datum"] = None
             else:
-                # en anders een contractduur tussen 1 en 10 dagen??
+                # en anders een contractduur tussen 1 en 50 dagen met meer kans op kort dan op lang
                 huurcontract["tot_datum"] = startdatum + datetime.timedelta(days=random.choices(range(1,50), weights=range(50,1,-1), k=1)[0])
             huurcontract["locatie_ophalen"] = locatie
 
             if(random.randrange(0,2) == 0): # in 50% van de contracten is terugbrengelocatie hetzelfde als ophaallocatie
                 huurcontract["locatie_terugbrengen"] = huurcontract["locatie_ophalen"]
             else:
-                # en anders een willekeurige locaties, op basis van kans
+                # en anders een willekeurige locaties, op basis van gewicht
                 huurcontract["locatie_terugbrengen"] = random.choices(locaties, weights=locatie_weights, k=1)[0]["locatiecode"] 
 
-            # contractwensen matchen altijd met auto                
+            # contractwensen matchen altijd met auto (TODO niet altijd matchen)
             huurcontract["wenst_autotype"] = auto["autotype"]            
             huurcontract["wenst_automaat"] = auto["is_automaat"]
             huurcontract["wenst_elektrisch"] = auto["is_elektrisch"]
 
-            # alle huurcontracten die zijn gestart/starten binnen een week na nu hebben een auto toegewezen
+            # alle huurcontracten die zijn gestart of starten binnen een week na nu hebben een auto toegewezen
             if(huurcontract["van_datum"] < datetime.date.today() + datetime.timedelta(days=7)):
                 huurcontract["krijgt_auto"] = auto["autonr"]
                 huurcontract["is_betaald"] = random.choices((0,1), weights=(1,99), k=1)[0]  # maar nog niet altijd betaald
             else:
-                # nieuwe contracten hebben nog geen auto toegewezen gekregen
+                # nieuwere contracten hebben nog geen auto toegewezen gekregen
                 huurcontract["krijgt_auto"] = None                
                 huurcontract["is_betaald"] = random.choices((0,1), weights=(5,5), k=1)[0] # soms al wel betaald
 
@@ -151,6 +150,7 @@ def __main__():
 
             # ACCESSOIRES VOOR DIT CONTRACT
             huurcontract_wenst_accessoires = []
+            # maak 0 tot 3 willekeurige (naar gewicht) accessoirewensen, meer kans op weinig dan op veel
             for accessoire in random.choices(accessoires, weights=accessoire_weights, k=random.choices(range(0,3), weights=range(4,1,-1), k=1)[0]):
                 if accessoire["accessoirenaam"] not in huurcontract_wenst_accessoires:
                     wenst_accessoire = {}
@@ -160,7 +160,7 @@ def __main__():
                     huurcontract_wenst_accessoires.append(wenst_accessoire["accessoire"])            
                     wenst_accessoires.append(wenst_accessoire)
 
-            # geen nieuwe contracten voor deze auto als dit het laatste contract is
+            # geen nieuw contract voor deze auto als dit het laatste contract is
             if huurcontract["tot_datum"] == None:
                 startdatum = None
             else:
@@ -170,17 +170,16 @@ def __main__():
                 else:
                     startdatum = huurcontract["tot_datum"] + datetime.timedelta(days=random.randrange(8,20))
 
-            # de auto kan worden opgehaald op de laatste terugbrenglocaties (we gaan geen auto's verplaatsen)    
+            # de auto kan door de volgende klant worden opgehaald op de laatste terugbrenglocatie (we brengen een auto niet naar een andere locatie tussen twee huurcontracten in)    
             locatie = huurcontract["locatie_terugbrengen"]
 
-    # verwijder attributen        
+    # verwijder overbodig geworden attributen        
     for accessoire in accessoires:
         del accessoire['max'] 
 
     # GENEREER INSERTS
     file = open("inserts.sql", "w", encoding = 'UTF-8')
-    file.write("SET NOCOUNT ON\ngo\n")  
-
+    file.write("SET NOCOUNT ON\ngo\n") 
 
     print ("Locatie: ", py2sql.list2sql2file('Locatie', locaties, file))    
     print ("Autotype: ", py2sql.list2sql2file('Autotype', autotypen, file))  
@@ -190,15 +189,9 @@ def __main__():
     print ("Huurcontracten: ", py2sql.list2sql2file('Huurcontract', huurcontracten, file))
     print ("Wenst accessoires: ", py2sql.list2sql2file('Wenst_accessoire', wenst_accessoires, file))
 
-
     file.close()   
   
-def tupels2dicts(name, listOfTupels):
-    list = []
-    for tupel in listOfTupels:
-        mydict = {name: tupel}
-        list.append(mydict)
-    return list
+
 
 __main__()
 
