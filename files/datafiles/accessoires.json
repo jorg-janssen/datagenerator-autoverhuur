@@ -39,7 +39,7 @@
         "omschrijving": "Kinderzitje",
         "prijs_per_dag": 4.50,
         "max": 3,
-        "kans": 6
+        "kans": 5
     },
     {
         "accessoirenaam": "DAKDRAGER",
@@ -200,7 +200,7 @@
         "omschrijving": "iPad voor kinderen",
         "prijs_per_dag": 7.00,
         "max": 4,
-        "kans": 3
+        "kans": 2
     },
     {
         "accessoirenaam": "VIDEQP",
