@@ -7,10 +7,10 @@ Er zijn twee manieren om de voorbeeldgegevens te gebruiken:
 
 1. Restore de complete database Autoverhuur m.b.v. het backup-bestand autoverhuur.bak. Dit vervangt je eigen bestaande database. OF:
 
-2. Gebruik het bestand inserts.sql om records toe te voegen aan je eigen database. Let dan wel op volgende:
+2. Gebruik het bestand inserts.sql om records toe te voegen aan je eigen database. Let dan wel op het volgende:
 
     - De kolom emailadres in de tabel Klant moet NULL (optioneel) zijn omdat er geen emailadressen zijn gegenereerd.
-    - Het bestand is waarschijnlijk te groot om te openen in Management Studio. Je moet het daarom uitvoeren via de command-line met de opdracht
+    - Het bestand is waarschijnlijk te groot om te openen in Management Studio. Je kunt het dan uitvoeren via de command-line met de opdracht
 
         ```
         sqlcmd -S . -d Autoverhuur -i inserts.sql -f 65001
